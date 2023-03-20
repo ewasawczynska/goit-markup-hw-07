@@ -49,14 +49,6 @@
   gap: 10px;
   justify-content: center;
 }
-
-.grid-our-team__sm-icons {
-  fill: #afb1b8;
-  transition-property: background-color, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .grid-our-team__sm-icon-frame {
   width: 44px;
   height: 44px;
@@ -65,12 +57,19 @@
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  &:hover,
-  &:focus,
-  &:hover .grid-our-team__sm-icons,
-  &:focus .grid-our-team__sm-icons {
-    background-color: $color-highlights;
-    fill: $color-mainandaddress;
-  }
+.grid-our-team__sm-icons {
+  fill: #afb1b8;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.grid-our-team__sm-icon-frame:hover,
+.grid-our-team__sm-icon-frame:focus,
+.grid-our-team__sm-icon-frame:hover .grid-our-team__sm-icons,
+.grid-our-team__sm-icon-frame:focus .grid-our-team__sm-icons {
+  background-color: $color-highlights;
+  fill: $color-mainandaddress;
 }
