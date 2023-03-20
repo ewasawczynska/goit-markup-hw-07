@@ -1,1 +1,167 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: "Roboto", "Montserrat", "Open Sans", "Arial", sans-serif;
+  color: #212121;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+figure,
+input {
+  margin: 0;
+}
+
+input {
+  border: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  padding-top: 24px;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+  margin-right: 93px;
+}
+
+.nav__logo--highlight {
+  color: #2196f3;
+}
+
+.nav__bar {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.nav__link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav__link:not(:last-child) {
+  margin-right: 46px;
+}
+.nav__link:focus, .nav__link:active, .nav__link:hover {
+  color: #2196f3;
+}
+
+.nav__link--active {
+  position: relative;
+  color: #2196f3;
+}
+.nav__link--active::after {
+  content: "";
+  position: absolute;
+  bottom: -32px;
+  width: 100%;
+  display: block;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+  left: 0;
+}
+
+.contact-header__mail, .contact-header__tel {
+  font-weight: 500;
+  color: #757575;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  fill: #757575;
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-header__mail:focus, .contact-header__tel:focus, .contact-header__mail:active, .contact-header__tel:active, .contact-header__mail:hover, .contact-header__tel:hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
+.contact-header__tel {
+  margin-left: 30px;
+}
+
+.main-section {
+  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-image.jpg");
+  background-color: #2f303a;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.maim-section__text {
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffffff;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
+  text-align: center;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}/*# sourceMappingURL=main.css.map */

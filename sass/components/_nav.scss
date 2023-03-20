@@ -1,0 +1,55 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  font-weight: 700;
+  font-size: 26px;
+  color: $color-logo;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.2;
+  margin-right: 93px;
+}
+
+.nav__logo--highlight {
+  color: $color-highlights;
+}
+
+.nav__bar {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.nav__link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:not(:last-child) {
+    margin-right: 46px;
+  }
+
+  &:focus,
+  &:active,
+  &:hover {
+    color: $color-highlights;
+  }
+}
+
+.nav__link--active {
+  position: relative;
+  color: $color-highlights;
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -32px;
+    width: 100%;
+    display: block;
+    height: 4px;
+    background-color: $color-highlights;
+    border-radius: 2px;
+    left: 0;
+  }
+}
