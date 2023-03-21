@@ -1,7 +1,9 @@
-@import "components/offer";
-
 .our-customers__section-title {
-  @extend offer;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .our-customers__box {

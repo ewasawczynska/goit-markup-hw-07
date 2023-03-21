@@ -1,11 +1,13 @@
-@import "components/offer";
-
 .grid-our-team {
   background-color: $color-theme2-cream;
 }
 
 .grid-our-team__title {
-  @extend offer;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .grid-our-team__box {
