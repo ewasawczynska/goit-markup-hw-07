@@ -26,7 +26,7 @@
     }
   }
   &__icon {
-    fill: #afb1b8;
+    fill: $color-icon;
     transition-property: background-color, fill;
     &--footer {
       fill: $color-theme2-cream;

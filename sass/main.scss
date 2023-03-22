@@ -1,5 +1,6 @@
 @use "./utils/variables" as *;
-@import "./components/primary-style";
+@import "./utils/primary-style";
+@import "./components/section.scss";
 @import "./components/logo";
 @import "./components/nav";
 @import "./components/contact-header";
