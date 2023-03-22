@@ -49,3 +49,16 @@ header {
   padding-top: 24px;
   align-items: center;
 }
+
+/*animation for portfolio.html*/
+.overlay > p {
+  background-color: rgba(33, 150, 243, 0.9);
+  color: $color-mainandaddress;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 63px;
+  padding-bottom: 91px;
+}
