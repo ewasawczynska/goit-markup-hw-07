@@ -8,6 +8,13 @@
 
   &__frame-grid {
     transition-property: background-color, fill;
+    &:hover,
+    &:focus,
+    &:hover .social-media__icon,
+    &:focus .social-media__icon {
+      background-color: $color-highlights;
+      fill: $color-mainandaddress;
+    }
   }
   &__frame-footer {
     background-color: rgba(255, 255, 255, 0.1);
