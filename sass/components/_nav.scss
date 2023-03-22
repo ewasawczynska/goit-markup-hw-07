@@ -1,16 +1,8 @@
 .nav {
   display: flex;
   align-items: center;
-  &__logo {
-    font-weight: 700;
-    font-size: 26px;
-    color: $color-logo;
-    font-family: "Raleway", sans-serif;
-    line-height: 1.2;
+  &__logo-style {
     margin-right: 93px;
-    &--highlight {
-      color: $color-highlights;
-    }
   }
   &__bar {
     font-weight: 500;

@@ -1,9 +1,11 @@
 @use "./utils/variables" as *;
 @import "./components/primary-style";
+@import "./components/logo";
 @import "./components/nav";
 @import "./components/contact-header";
 @import "./components/main-section";
 @import "./components/button";
+@import "./components/social-media";
 @import "./components/footer";
 @import "./components/grid-title-list";
 @import "./components/offer";

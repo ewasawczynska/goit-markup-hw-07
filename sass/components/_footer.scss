@@ -16,16 +16,8 @@
     font-style: normal;
     font-size: 14px;
   }
-  &__logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    color: $color-mainandaddress;
-    line-height: 1.4;
+  &__logo-style {
     padding-bottom: 20px;
-    &--highlight {
-      color: $color-highlights;
-    }
   }
 
   &__contact {
@@ -52,24 +44,7 @@
     display: flex;
     gap: 10px;
   }
-  &__sm-icon-frame {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 11px;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:active,
-    &:focus {
-      background-color: $color-highlights;
-    }
-  }
-  &__sm-icons {
-    fill: $color-theme2-cream;
-  }
+
   &__newsletter-title {
     color: $color-mainandaddress;
     font-weight: 700;
@@ -86,7 +61,6 @@
     background: none;
     width: 345px;
     color: rgba(255, 255, 255, 0.6);
-
     &:placeholder-shown {
       letter-spacing: 0.03em;
       color: rgba(255, 255, 255, 0.6);
@@ -96,23 +70,21 @@
   }
   &__newsletter-button {
     padding-left: 42px;
-    padding-right: 0px;
+    padding-right: 24px;
     margin-left: 8px;
     display: inline-flex;
     align-items: center;
   }
-  &____news-btn-txt {
+  &__news-btn-txt {
     color: $color-mainandaddress;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-  }
-  &_news-btn-pic {
-    padding-left: 24px;
     padding-right: 28px;
   }
-  & __newsletter-pic {
+
+  &__newsletter-pic {
     fill: $color-mainandaddress;
   }
 }
